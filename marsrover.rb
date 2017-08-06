@@ -21,7 +21,8 @@ class Rover
       instruction == "M"
       move(instruction)
     else
-      puts "Sorry. That is not a valid input."
+      puts "Sorry. That is not a valid input. Please enter 'L', 'R' or 'M'"
+      currentposition
     end
   end
 
